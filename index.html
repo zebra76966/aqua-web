@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- SEO -->
+    <title>AquaAI — Smart Aquarium Monitoring App</title>
+    <meta name="description" content="AquaAI is an intelligent aquarium monitoring app that tracks water health, fish compatibility, and tank conditions with real-time AI insights." />
+    <link rel="canonical" href="https://aquaai.com/" />
+    <meta name="robots" content="index,follow" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/img/global/favicon.ico" sizes="any" />
+
+    <!-- Socials -->
+    <meta property="og:title" content="AquaAI — Smart Aquarium Monitoring App" />
+    <meta property="og:description" content="Track fish health, water parameters, and compatibility with AquaAI." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://aquaai.com" />
+    <meta property="og:image" content="./assets/img/og-image.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Styles + JS -->
+    <link rel="preload" href="./assets/css/styles.css?v=0.8" as="style" />
+    <link rel="stylesheet" href="./assets/css/colors.css?v=0.8" />
+    <link rel="stylesheet" href="./assets/css/styles.css?v=0.8" />
+    <script defer src="./assets/js/main.js?v=0.8"></script>
+    <script defer src="./assets/js/siema.min.js?v=0.8"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body class="scheme-midnight">
+    <div class="position-fixed start-0 w-100" style="background: rgba(5, 9, 14, 0.5); backdrop-filter: blur(5px); z-index: 999">
+      <header class="top d-flex justify-content-between align-items-center p-2">
+        <!-- Brand -->
+        <div class="d-flex align-items-center">
+          <img class="top__avatar me-2" src="./assets/img/global/icon.png" alt="AquaAI" />
+          <span class="top__brand fw-bold text-light">AquaAI</span>
+        </div>
+
+        <!-- Right Side -->
+        <div class="d-flex align-items-center">
+          <!-- Download CTA -->
+          <a href="#contact" class="top__cta">Download App <span class="arrow">→</span></a>
+          <!-- Toggle Button -->
+          <button class="btn btn-outline-light ms-3 d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-label="Toggle navigation">
+            <span class="fs-3">☰</span>
+          </button>
+        </div>
+      </header>
+    </div>
+
+    <!-- Offcanvas Sidebar -->
+    <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="sidebarMenu" aria-labelledby="sidebarMenuLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="sidebarMenuLabel">Menu</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <nav class="nav flex-column">
+          <a href="#about" class="nav-link text-light">About</a>
+          <a href="#capabilities" class="nav-link text-light">Features</a>
+          <a href="#how" class="nav-link text-light">How It Works</a>
+          <a href="#usecases" class="nav-link text-light">Use Cases</a>
+          <a href="#gallery" class="nav-link text-light">Gallery</a>
+          <a href="#contact" class="nav-link text-light">Contact</a>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="boxed mt-5 pt-5 d-lg-none d-block text-center">
+              <img class="top__avatar" src="./assets/img/global/icon.png" style="height: 10dvh; object-fit: contain" class="mx-auto" alt="AquaAI" />
+              <span class="text-light text-uppercase mt-5 text-center px-0 mx-0">Smart Aquarium Monitoring</span>
+            </div>
+            <video class="heroVod" loop muted autoplay>
+              <source src="assets/img/portfolio/heroVod.mp4" type="video/mp4" />
+
+              Your browser does not support HTML video.
+            </video>
+          </div>
+          <div class="col-lg-6">
+            <div class="boxed">
+              <div class="d-none d-lg-block">
+                <img class="top__avatar" src="./assets/img/global/icon.png" style="height: 10dvh; object-fit: contain" class="mx-auto" alt="AquaAI" />
+                <span class="eyebrow mt-4">Smart Aquarium Monitoring</span>
+              </div>
+              <h1 class="overview pt-lg-0 pt-4">
+                Keep your aquarium healthy with
+
+                <span class="text-info border-bottom border-light border-2 pb-2 d-block"> AI-powered </span>
+
+                insights.
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="ch-100 d-flex align-items-center py-5">
+      <div class="boxed">
+        <div class="row align-items-center">
+          <div class="col-lg-8">
+            <h2 class="fs-1">About <span class="text-info border-bottom border-light border-2 pb-2"> AquaAI</span></h2>
+            <p class="text-light lead">
+              AquaAI is a smart aquarium monitoring app designed to help you track the health of your fish tank. Using artificial intelligence and sensor integration, it monitors water quality, fish
+              behavior, and species compatibility in real time.
+            </p>
+            <p class="text-light lead">AquaAI provides instant alerts and actionable recommendations, ensuring your aquarium stays balanced, healthy, and thriving with minimal effort.</p>
+          </div>
+          <div class="col-lg-4">
+            <!-- <img src="./assets/img/portfolio/sphere-01b.jpg" alt="About AquaAI" /> -->
+            <video class="heroVod" loop muted autoplay style="border-radius: 100%; height: 60dvh; object-fit: contain; width: 100%">
+              <source src="assets/img/portfolio/vide3.mp4" type="video/mp4" />
+
+              Your browser does not support HTML video.
+            </video>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </section>
+
+    <!-- Features -->
+    <section id="capabilities" class="ch-100 d-flex align-items-center bg-black">
+      <div class="boxed">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <img src="./assets/img/portfolio/aqua3.jpg" class="d-lg-block d-none" alt="About AquaAI" style="border-radius: 5%; height: 80dvh; object-fit: cover; width: 100%" />
+          </div>
+          <div class="col-lg-6">
+            <div class="text text-end">
+              <h2 class="fs-1">Key <span class="text-info border-bottom border-light border-2 pb-2"> Features</span></h2>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item py-4 bg-none">
+                  <strong class="d-block mb-3 lead fw-bold text-light">AI-Powered Fish Detection</strong> – Identify and track fish species in your tank using your phone’s camera or connected devices.
+                </li>
+                <li class="list-group-item py-4 bg-none">
+                  <strong class="d-block mb-3 lead fw-bold text-light">Water Quality Monitoring</strong> – Get live readings of pH, temperature, and other parameters critical for aquatic life.
+                </li>
+                <li class="list-group-item py-4 bg-none">
+                  <strong class="d-block mb-3 lead fw-bold text-light">Fish Compatibility Insights</strong> – Understand which species can coexist peacefully and receive warnings for risky pairings.
+                </li>
+                <li class="list-group-item py-4 bg-none">
+                  <strong class="d-block mb-3 lead fw-bold text-light">Smart Alerts & Recommendations</strong> – Instant notifications and step-by-step guidance to maintain ideal tank conditions.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+    </section>
+
+    <!-- How It Works -->
+    <section id="how" class="ch-100 d-flex align-items-center">
+      <div class="boxed flex-split">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="text">
+              <h2 class="fs-1">How It <span class="text-info border-bottom border-light border-2 pb-2"> Works</span></h2>
+
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item py-4 bg-none">
+                  <strong class="d-block mb-3 lead fw-bold text-light">Monitor:</strong> Connect sensors or use the app camera to track tank conditions and fish activity.
+                </li>
+                <li class="list-group-item py-4 bg-none">
+                  <strong class="d-block mb-3 lead fw-bold text-light">Analyze:</strong> AI models evaluate water health, fish compatibility, and environmental balance.
+                </li>
+                <li class="list-group-item py-4 bg-none"><strong class="d-block mb-3 lead fw-bold text-light">Alert:</strong> Get real-time notifications when conditions change or risks arise.</li>
+                <li class="list-group-item py-4 bg-none">
+                  <strong class="d-block mb-3 lead fw-bold text-light">Smart Alerts & Recommendations</strong> – Instant notifications and step-by-step guidance to maintain ideal tank conditions.
+                </li>
+                <li class="list-group-item py-4 bg-none">
+                  <strong class="d-block mb-3 lead fw-bold text-light"> Act:</strong> Follow personalized recommendations to restore balance and improve fish well-being.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="image d-lg-block d-none">
+              <img src="./assets/img/portfolio/aqua2.jpg" alt="About AquaAI" style="border-radius: 5%; height: 80dvh; object-fit: cover; width: 100%" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </section>
+
+    <!-- Use Cases -->
+    <section id="usecases" class="ch-100 d-flex align-items-center bg-black">
+      <div class="boxed flex-split">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <video class="heroVod" loop muted autoplay style="border-radius: 5%; height: 60dvh; object-fit: cover; width: 100%">
+              <source src="assets/img/portfolio/vide2.mp4" type="video/mp4" />
+
+              Your browser does not support HTML video.
+            </video>
+          </div>
+          <div class="col-lg-6 px-3">
+            <h2 class="fs-1">Who Can Use <span class="text-info border-bottom border-light border-2 pb-2"> AquaAI?</span></h2>
+            <div class="grid-2">
+              <div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item py-4 bg-none"><strong class="d-block lead fw-bold text-light">Aquarium Hobbyists:</strong> Keep personal tanks healthy and easy to manage.</li>
+                  <li class="list-group-item py-4 bg-none">
+                    <strong class="d-block lead fw-bold text-light">Public Aquariums:</strong> Ensure large-scale tanks remain stable with less manual effort.
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item py-4 bg-none">
+                    <strong class="d-block lead fw-bold text-light">Fish Breeders:</strong> Improve breeding success by maintaining optimal water conditions.
+                  </li>
+                  <li class="list-group-item py-4 bg-none"><strong class="d-block mb-3 lead fw-bold text-light"> Researchers:</strong> Automate data collection and monitoring for aquatic studies.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="boxed">
+        <div class="row align-items-center">
+          <div class="col-lg-6 border-info border-2 rounded-5 border p-3">
+            <div class="siema bg-black rounded-4">
+              <div><img src="./assets/img/portfolio/app1.jpg" alt="App Preview 1" style="height: 60dvh; object-fit: contain" /></div>
+              <div><img src="./assets/img/portfolio/app2.jpg" alt="App Preview 2" style="height: 60dvh; object-fit: contain" /></div>
+              <div><img src="./assets/img/portfolio/app3.jpg" alt="App Preview 3" style="height: 60dvh; object-fit: contain" /></div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="boxed">
+              <img class="top__avatar" src="./assets/img/global/icon.png" style="height: 10dvh; object-fit: contain" class="mx-auto" alt="AquaAI" />
+              <span class="eyebrow mt-4">Smart Aquarium Monitoring</span>
+              <h1 class="overview">
+                Join
+
+                <span class="text-info border-bottom border-light border-2 pb-2">Today </span>
+              </h1>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section class="bg-black position-relative" id="contact">
+      <video class="contactVodBG" loop muted autoplay>
+        <source src="assets/img/portfolio/heroVod.mp4" type="video/mp4" />
+
+        Your browser does not support HTML video.
+      </video>
+      <div class="bio-section position-relative" style="z-index: 999">
+        <div class="bio-image" id="about">
+          <img src="./assets/img/global/icon.png" alt="Author" style="height: 300px; object-fit: contain" />
+        </div>
+        <div class="bio-text">
+          <h2>Contact & Support</h2>
+          <p>Have questions, feedback, or need support? Reach out to us:</p>
+          <div class="bio-links">
+            <ul>
+              <li><strong>Email:</strong> <a href="mailto:info@aquaai.com">info@aquaai.com</a></li>
+              <li><strong>Phone:</strong> +1 (123) 456-7890</li>
+              <li><strong>Location:</strong> 123 AquaAI Street, Aquapolis</li>
+            </ul>
+            <p><a href="mailto:info@aquaai.com" class="top__cta text-dark">Send a Message →</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <p class="footer-left">© 2025 AquaAI</p>
+      <p class="footer-right">Smart Aquarium Monitoring App</p>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const slider = new Siema({ duration: 300, loop: true });
+        setInterval(() => slider.next(), 4000);
+      });
+    </script>
+
+    <!-- Lenis Smooth Scroll -->
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+
+    <script>
+      window.addEventListener("load", () => {
+        if (typeof Lenis !== "undefined") {
+          const lenis = new Lenis({
+            duration: 1.5, // adjust speed
+            smoothWheel: true, // enable mouse wheel smooth scroll
+            smoothTouch: false, // disable touch smoothing
+          });
+
+          function raf(time) {
+            lenis.raf(time);
+            requestAnimationFrame(raf);
+          }
+
+          requestAnimationFrame(raf);
+        } else {
+          console.error("❌ Lenis failed to load.");
+        }
+      });
+    </script>
+  </body>
+</html>
